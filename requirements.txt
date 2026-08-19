@@ -1,0 +1,7 @@
+# IMPORTANT: mediapipe >= 0.10.2x removed the legacy `mp.solutions` API
+# (Pose, FaceMesh, drawing_utils) that this project depends on.
+# Do not upgrade mediapipe past 0.10.14 without rewriting pose_analyzer.py
+# and emotion_analyzer.py against the newer Tasks API.
+mediapipe==0.10.14
+opencv-python==4.10.0.84
+numpy

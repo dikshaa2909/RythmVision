@@ -1,0 +1,9 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Runtime-generated screenshots and session reports
+rhythmvision_sessions/*
+!rhythmvision_sessions/.gitkeep
